@@ -20,7 +20,6 @@ dependencies {
     implementation("io.ktor:ktor-server-content-negotiation-jvm:$ktor_version")
     implementation("io.ktor:ktor-serialization-kotlinx-json-jvm:$ktor_version")
 
-    // Добавляем зависимости для Ktor CLIENT с суффиксом -jvm
     implementation("io.ktor:ktor-client-core-jvm:$ktor_version")
     implementation("io.ktor:ktor-client-cio-jvm:$ktor_version")
     implementation("io.ktor:ktor-client-content-negotiation-jvm:$ktor_version")
